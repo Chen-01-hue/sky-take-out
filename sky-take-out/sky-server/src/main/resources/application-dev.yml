@@ -11,3 +11,10 @@ sky:
     access-key-id: LTAI5tA68LAYVkcGmyRqGVds
     access-key-secret: 1RWr3uvcGsuXxXHtpXEgigGVPPNYo6
     bucket-name: chen01-take-out
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+  wechat:
+    appid: wx65bc733830d10876
+    secret: 06691c2814217c4b8d9275cf66917093
