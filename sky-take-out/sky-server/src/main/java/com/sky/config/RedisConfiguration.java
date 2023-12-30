@@ -31,7 +31,7 @@ public class RedisConfiguration {
         //设置redis hashkey的序列化器
         redisTemplate.setHashKeySerializer(new StringRedisSerializer());
         //value序列化
-        redisTemplate.setValueSerializer(jackson2JsonRedisSerializer);
+        //redisTemplate.setValueSerializer(jackson2JsonRedisSerializer);
         //value hashmap序列化
         redisTemplate.setHashValueSerializer(jackson2JsonRedisSerializer);
         return redisTemplate;
