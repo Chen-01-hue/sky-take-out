@@ -64,3 +64,14 @@
 2024/01/10 15:31:28 [error] 12636#22540: OpenEvent("Global\ngx_stop_1356") failed (2: The system cannot find the file specified)
 2024/01/10 15:31:39 [notice] 27620#18804: signal process started
 2024/01/10 15:31:39 [error] 27620#18804: OpenEvent("Global\ngx_stop_1356") failed (2: The system cannot find the file specified)
+2024/02/29 10:22:53 [error] 19112#14972: *15 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /api/employee/login HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/employee/login", host: "localhost", referrer: "http://localhost/"
+2024/02/29 15:56:57 [notice] 4228#24244: signal process started
+2024/02/29 16:12:19 [notice] 26472#27628: signal process started
+2024/02/29 16:22:30 [notice] 28384#17236: signal process started
+2024/02/29 16:22:30 [error] 28384#17236: CreateFile() "D:\projects\take-out\nginx-1.20.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/02/29 16:42:26 [notice] 22884#26464: signal process started
+2024/02/29 16:42:28 [notice] 25352#27464: signal process started
+2024/02/29 16:42:28 [error] 25352#27464: CreateFile() "D:\projects\take-out\nginx-1.20.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/02/29 17:04:13 [notice] 17964#24944: signal process started
+2024/02/29 17:04:14 [notice] 19880#26880: signal process started
+2024/02/29 17:04:14 [error] 19880#26880: CreateFile() "D:\projects\take-out\nginx-1.20.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
