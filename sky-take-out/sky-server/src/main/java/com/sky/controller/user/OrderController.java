@@ -38,7 +38,7 @@ public class OrderController {
 
     /**
      * 订单支付
-     * 现因没有注册商户小程序,无法开通真实的微信支付,现在直接返回成功状态码,相应的前端代码也修改
+     * TODO 现因没有注册商户小程序,无法开通真实的微信支付,现在直接返回成功状态码,相应的微信小程序端代码也修改
      * @param ordersPaymentDTO
      * @return
      */
